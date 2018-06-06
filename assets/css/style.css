@@ -1,0 +1,41 @@
+h2 {
+	color: #0060a8;
+	margin-bottom: 30px;
+}
+h3 {
+	color: #0060a8;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+.nav-home {
+	height: 105px;
+	background-color: #008ccc;
+}
+.nav-home a {
+	color: white;
+}
+.banner-home {
+	height: 600px;
+	background-image: 100%;
+	text-align: center;
+	padding-bottom: 15rem;
+}
+.carousel-caption h1 {
+	padding-bottom: 300px;
+	color: red;
+}
+.sections-home {
+	margin-top: 60px;
+}
+.news-home {
+	padding: 30px;
+	border: 2px solid white;
+	background-color: #f9f9f9;
+	box-sizing: border-box;
+}
+.img-thumbnail {
+	height: 22rem;
+	width: 100%;
+}
+#e115e3
