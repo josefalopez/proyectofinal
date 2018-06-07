@@ -17,6 +17,13 @@ h3 {
 	font-size: 18px;
 	margin-top: 15px;
 }
+h4 {
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 15px;
+	padding: 20px 0 10px 0;
+}
 .btn-magenta {
 	background-color: #e115e3;
 	color: white;
@@ -25,11 +32,11 @@ h3 {
   font-size: 14px;
   color: #008ccc;
 }
-
-/* Specific styles Home */
-
 .nav-home {
 	height: 105px;
+	background-color: #008ccc;
+}
+.nav-home.navbar-brand a:hover {
 	background-color: #008ccc;
 }
 .nav-home a {
@@ -43,6 +50,9 @@ h3 {
 .nav-item.nav-link.active {
 	border-bottom: 2px solid #e115e3;
 }
+
+/* Specific styles Home */
+
 .banner-home {
 	background-image: 100%;
 	text-align: center;
@@ -70,6 +80,10 @@ h3 {
 	background-color: #f9f9f9;
 	box-sizing: border-box;
 }
+.news-home img {
+	width: 100%;
+	height: 20rem;
+}
 .img-thumbnail {
 	height: 22rem;
 	width: 100%;
@@ -93,5 +107,30 @@ h3 {
 }
 .post-news img {
 	width: 100%;
+	height: auto;
 	margin-bottom: 20px;
+}
+.aside-news {
+	margin-top: 20px;
+	background-color: #f9f9f9;
+	padding: 20px;
+}
+.aside-news h2 {
+	margin-top: 30px;
+	border-bottom: 2px solid #e115e3;
+	padding-bottom: 5px;
+}
+.aside-news img {
+	width: 100%;
+	height: auto;
+}
+
+/* Nosotros styles*/
+
+.header-nosotros {
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-image: url(../img/somos.png);
+	background-position: center;
+	height: 480px;
 }
