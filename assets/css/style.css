@@ -1,5 +1,15 @@
+/* General styles */
+
+body {
+	padding-top: 105px;
+}
+h1 {
+	font-size: 36px;
+}
+
 h2 {
 	color: #0060a8;
+	font-size: 25px;
 	margin-bottom: 30px;
 }
 h3 {
@@ -7,6 +17,16 @@ h3 {
 	font-size: 18px;
 	margin-top: 15px;
 }
+.btn-magenta {
+	background-color: #e115e3;
+	color: white;
+}
+.fecha {
+  font-size: 14px;
+  color: #008ccc;
+}
+
+/* Specific styles Home */
 
 .nav-home {
 	height: 105px;
@@ -14,16 +34,32 @@ h3 {
 }
 .nav-home a {
 	color: white;
+	margin-left: 10px;
+	padding: 5px;
+}
+.nav-home a:hover {
+	background-color: #e115e3;
+}
+.nav-item.nav-link.active {
+	border-bottom: 2px solid #e115e3;
 }
 .banner-home {
-	height: 600px;
 	background-image: 100%;
 	text-align: center;
-	padding-bottom: 15rem;
+}
+.carousel-item{
+	background-image: url(../img/banner1.jpg);
+	height: 600px;
+	background-size: cover;
+}
+.carousel-caption {
+	bottom: 50%;
+	transform: translateY(50%);
 }
 .carousel-caption h1 {
-	padding-bottom: 300px;
-	color: red;
+	color: white;
+	background-color: rgba(0, 140, 202, 0.8);
+	padding: 10px;
 }
 .sections-home {
 	margin-top: 60px;
@@ -38,4 +74,24 @@ h3 {
 	height: 22rem;
 	width: 100%;
 }
-#e115e3
+.info-footer {
+	margin-top: 60px;
+	color: white;
+	padding: 40px;
+	background-color: #008ccc;
+	box-sizing: border-box;
+}
+.info-footer a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Specific styles Noticias */
+
+.post-news {
+	margin-top: 20px;
+}
+.post-news img {
+	width: 100%;
+	margin-bottom: 20px;
+}
