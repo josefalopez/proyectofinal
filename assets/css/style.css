@@ -19,10 +19,11 @@ h3 {
 }
 h4 {
 	font-size: 24px;
+	color: #606467;
 	text-align: center;
 	line-height: 40px;
 	margin-top: 15px;
-	padding: 20px 0 10px 0;
+	padding-top: 15px;
 }
 .btn-magenta {
 	background-color: #e115e3;
@@ -33,7 +34,6 @@ h4 {
   color: #008ccc;
 }
 .nav-home {
-	height: 105px;
 	background-color: #008ccc;
 }
 .nav-home.navbar-brand a:hover {
@@ -50,8 +50,15 @@ h4 {
 .nav-item.nav-link.active {
 	border-bottom: 2px solid #e115e3;
 }
+.navbar-toggler.bg-custom {
+    background-color: #e115e3;
+}
+.custom-toggler {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-color: none;
+}
 
-/* Specific styles Home */
+/* Styles Home */
 
 .banner-home {
 	background-image: 100%;
@@ -73,6 +80,11 @@ h4 {
 }
 .sections-home {
 	margin-top: 60px;
+}
+@media (min-width: 300px) and (max-width: 600px){
+.sections-home img {
+	margin-top: 60px;
+}
 }
 .news-home {
 	padding: 30px;
@@ -133,4 +145,38 @@ h4 {
 	background-image: url(../img/somos.png);
 	background-position: center;
 	height: 480px;
+}
+.card .fas {
+	color: #e115e3;
+	text-align: center;
+	font-size: 70px;
+	display: block;
+	margin-top: 30px;
+}
+.card .fab {
+	color: #e115e3;
+	text-align: center;
+	font-size: 70px;
+	display: block;
+	margin-top: 30px;
+}
+.card .far {
+	color: #e115e3;
+	text-align: center;
+	font-size: 70px;
+	display: block;
+	margin-top: 30px;
+}
+.group-nosotros {
+	padding: 30px;
+	margin: 40px;
+	background-color: #f9f9f9;
+	box-sizing: border-box;
+}
+.card-deck {
+	margin-top: 30px;
+}
+.card {
+	background-color: #f9f9f9;
+	font-size: 14px;
 }
