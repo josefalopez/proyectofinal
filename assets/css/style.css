@@ -30,8 +30,8 @@ h4 {
 	color: white;
 }
 .fecha {
-  font-size: 14px;
-  color: #008ccc;
+  	font-size: 14px;
+  	color: #008ccc;
 }
 .nav-home {
 	background-color: #008ccc;
@@ -81,11 +81,6 @@ h4 {
 .sections-home {
 	margin-top: 60px;
 }
-@media (min-width: 300px) and (max-width: 600px){
-.sections-home img {
-	margin-top: 60px;
-}
-}
 .news-home {
 	padding: 30px;
 	border: 2px solid white;
@@ -94,7 +89,7 @@ h4 {
 }
 .news-home img {
 	width: 100%;
-	height: 20rem;
+	height: auto;
 }
 .img-thumbnail {
 	height: 22rem;
@@ -110,6 +105,11 @@ h4 {
 .info-footer a {
 	color: white;
 	text-decoration: none;
+}
+.info-footer img {
+	width: 40px;
+	margin-right: 20px;
+	margin-top: 10px;
 }
 
 /* Specific styles Noticias */
@@ -173,10 +173,8 @@ h4 {
 	background-color: #f9f9f9;
 	box-sizing: border-box;
 }
-.card-deck {
-	margin-top: 30px;
-}
 .card {
 	background-color: #f9f9f9;
 	font-size: 14px;
+	margin-top: 30px;
 }
