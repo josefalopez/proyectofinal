@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-	font-size: 25px;
+	font-size: 28px;
 	text-transform: uppercase;
 	margin-bottom: 30px;
 	color: #943481;
@@ -90,88 +90,5 @@ h3 {
 	color: white;
 	padding: 40px;
 	background-color: #943481;
-	box-sizing: border-box;
-}
-
-/* Styles Noticias */
-
-.post-news {
-	margin-top: 40px;
-}
-.post-news img {
-	width: 100%;
-	height: auto;
-	margin-bottom: 20px;
-}
-.aside-news {
-	margin-top: 40px;
-	background-color: #f9f9f9;
-	padding: 20px;
-}
-.aside-news h2 {
-	margin-top: 30px;
-	border-bottom: 2px solid #e115e3;
-	padding-bottom: 5px;
-}
-.aside-news img {
-	width: 100%;
-	height: auto;
-}
-
-/* Nosotros styles*/
-
-.header-nosotros {
-	background-size: cover; 
-	background-repeat: no-repeat; 
-	background-image: url(../img/somos.png);
-	background-position: center;
-	height: 480px;
-}
-.card .fas {
-	color: #e115e3;
-	text-align: center;
-	font-size: 70px;
-	display: block;
-	margin-top: 30px;
-}
-.card .fab {
-	color: #e115e3;
-	text-align: center;
-	font-size: 70px;
-	display: block;
-	margin-top: 30px;
-}
-.card .far {
-	color: #e115e3;
-	text-align: center;
-	font-size: 70px;
-	display: block;
-	margin-top: 30px;
-}
-.group-nosotros {
-	padding: 30px;
-	margin: 40px;
-	background-color: #f9f9f9;
-	box-sizing: border-box;
-}
-.card {
-	background-color: #f9f9f9;
-	font-size: 14px;
-	margin-top: 30px;
-}
-
-/* Contacto styles*/
-
-.contacto-info {
-	margin-top: 40px;
-}
-.contacto-info img {
-	width: 100%;
-	height: auto;
-	margin-bottom: 20px;
-}
-.contacto-datos {
-	background-color: #f9f9f9;
-	padding: 20px;
-	box-sizing: border-box;
+	text-align: right;
 }
