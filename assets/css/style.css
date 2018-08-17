@@ -2,56 +2,57 @@
 
 body {
 	padding-top: 105px;
+	font-family: raleway;
+	font-size: 1.1rem;
+	line-height: 2rem;
 }
 h1 {
 	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
 h2 {
-	color: #0060a8;
 	font-size: 25px;
+	text-transform: uppercase;
 	margin-bottom: 30px;
+	color: #943481;
 }
 h3 {
-	color: #0060a8;
-	font-size: 18px;
-	margin-top: 15px;
+	font-size: 20px;
+	line-height: 30px;
 }
-h4 {
-	font-size: 24px;
-	color: #606467;
-	text-align: center;
-	line-height: 40px;
-	margin-top: 15px;
-	padding-top: 15px;
-}
-.btn-magenta {
-	background-color: #e115e3;
-	color: white;
-}
-.fecha {
-  	font-size: 14px;
-  	color: #008ccc;
-}
+
+/* Styles Navbar */
+
 .nav-home {
-	background-color: #008ccc;
+	background-color: #ffffff;
+	padding: 0;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+	font-size: 1rem;
 }
 .nav-home.navbar-brand a:hover {
 	background-color: #008ccc;
 }
 .nav-home a {
-	color: white;
-	margin-left: 10px;
-	padding: 5px;
+	color: #943481;
+	margin-left: 50px;
 }
 .nav-home a:hover {
-	background-color: #e115e3;
+	color: #3eaf8c;
+}
+.nav-item {
+	height: 120px;
+	padding-top: 46px;
 }
 .nav-item.nav-link.active {
-	border-bottom: 2px solid #e115e3;
+	background-color: #3eaf8c;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 .navbar-toggler.bg-custom {
-    background-color: #e115e3;
+    background-color: #943481;
 }
 .custom-toggler {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -62,10 +63,9 @@ h4 {
 
 .banner-home {
 	background-image: 100%;
-	text-align: center;
 }
 .carousel-item{
-	background-image: url(../img/banner1.jpg);
+	background-image: url(../img/Aventurera.jpg);
 	height: 600px;
 	background-size: cover;
 }
@@ -73,43 +73,24 @@ h4 {
 	bottom: 50%;
 	transform: translateY(50%);
 }
-.carousel-caption h1 {
+.d-md-block {
+	width: 500px;
+	background-color: rgba(148, 52, 129, 0.9);
+	padding: 35px 25px 25px 30px;
 	color: white;
-	background-color: rgba(0, 140, 202, 0.8);
-	padding: 10px;
+	text-align: left;
 }
+
 .sections-home {
 	margin-top: 60px;
 }
-.news-home {
-	padding: 30px;
-	border: 2px solid white;
-	background-color: #f9f9f9;
-	box-sizing: border-box;
-}
-.news-home img {
-	width: 100%;
-	height: auto;
-}
-.img-thumbnail {
-	height: 22rem;
-	width: 100%;
-}
-.info-footer {
+
+.footer {
 	margin-top: 60px;
 	color: white;
 	padding: 40px;
-	background-color: #008ccc;
+	background-color: #943481;
 	box-sizing: border-box;
-}
-.info-footer a {
-	color: white;
-	text-decoration: none;
-}
-.info-footer img {
-	width: 40px;
-	margin-right: 20px;
-	margin-top: 10px;
 }
 
 /* Styles Noticias */
