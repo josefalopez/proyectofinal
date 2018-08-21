@@ -22,6 +22,9 @@ h3 {
 	font-size: 20px;
 	line-height: 30px;
 }
+.txtverde {
+	color: #3eae8b;
+}
 
 /* Styles Navbar */
 
@@ -64,7 +67,7 @@ h3 {
 .banner-home {
 	background-image: 100%;
 }
-.carousel-item{
+.carousel-image-home {
 	background-image: url(../img/Aventurera.jpg);
 	height: 600px;
 	background-size: cover;
@@ -86,6 +89,17 @@ h3 {
 .jumbotron{
 	margin-top: 50px;
 	margin-bottom: 0;
+}
+
+.galeria-productos-verde {
+	background-color: rgba(62, 174, 139, 0.15);
+	width: 440px;
+	height: 440px;
+}
+.galeria-productos-rosa {
+	background-color: rgba(148, 52, 129, 0.15);
+	width: 440px;
+	height: 440px;
 }
 
 /* Styles Footer */
