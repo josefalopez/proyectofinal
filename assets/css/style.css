@@ -25,6 +25,14 @@ h3 {
 .txtverde {
 	color: #3eae8b;
 }
+.btn-green {
+	background-color: #3eaf8c;
+	color: white;
+}
+.icons {
+	font-size: 60px;
+	color:#3eaf8c;
+}
 
 /* Styles Navbar */
 
