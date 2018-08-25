@@ -30,8 +30,19 @@ h3 {
 	color: white;
 }
 .icons {
-	font-size: 60px;
+	font-size: 50px;
 	color:#3eaf8c;
+}
+.sections {
+	margin-top: 60px;
+}
+.aside {
+	background-color: #e9ecef;
+	padding: 20px;
+}
+.jumbotron{
+	margin-top: 50px;
+	margin-bottom: 0;
 }
 
 /* Styles Navbar */
@@ -91,14 +102,6 @@ h3 {
 	color: white;
 	text-align: left;
 }
-.sections-home {
-	margin-top: 60px;
-}
-.jumbotron{
-	margin-top: 50px;
-	margin-bottom: 0;
-}
-
 .galeria-productos-verde {
 	background-color: rgba(62, 174, 139, 0.15);
 	width: 440px;
@@ -110,10 +113,16 @@ h3 {
 	height: 440px;
 }
 
+/* Styles Contact */
+
+.contact {
+	margin-bottom: 50px;
+}
+
 /* Styles Footer */
 .footer {
 	color: white;
-	padding: 40px;
+	padding: 30px;
 	background-color: #943481;
 	text-align: right;
 }
