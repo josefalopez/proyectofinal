@@ -25,6 +25,10 @@ h3 {
 .txtverde {
 	color: #3eae8b;
 }
+.txtsmall {
+	font-size: 0.9rem;
+	line-height: 1.7rem;
+}
 .btn-green {
 	background-color: #3eaf8c;
 	color: white;
